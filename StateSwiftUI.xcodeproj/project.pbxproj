@@ -8,17 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		780886882AA9E6980064A6AB /* StateSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780886872AA9E6980064A6AB /* StateSwiftUIApp.swift */; };
-		7808868A2AA9E6980064A6AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780886892AA9E6980064A6AB /* ContentView.swift */; };
+		7808868A2AA9E6980064A6AB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780886892AA9E6980064A6AB /* MainView.swift */; };
 		7808868C2AA9E6990064A6AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7808868B2AA9E6990064A6AB /* Assets.xcassets */; };
 		7808868F2AA9E6990064A6AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7808868E2AA9E6990064A6AB /* Preview Assets.xcassets */; };
+		7808869A2AA9EAED0064A6AB /* IncomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780886992AA9EAED0064A6AB /* IncomeView.swift */; };
+		7808869D2AA9EB640064A6AB /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7808869C2AA9EB640064A6AB /* Currency.swift */; };
+		780886A12AA9F1520064A6AB /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780886A02AA9F1510064A6AB /* Account.swift */; };
+		780886A32AA9F4D50064A6AB /* ExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780886A22AA9F4D50064A6AB /* ExpenseView.swift */; };
+		780886A52AA9F5180064A6AB /* DebtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780886A42AA9F5180064A6AB /* DebtView.swift */; };
+		780886A72AA9F54C0064A6AB /* InvestmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780886A62AA9F54C0064A6AB /* InvestmentView.swift */; };
+		780886AB2AA9F7D20064A6AB /* CurrencyExchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780886AA2AA9F7D20064A6AB /* CurrencyExchange.swift */; };
+		780886AD2AA9F8110064A6AB /* ActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780886AC2AA9F8110064A6AB /* ActionView.swift */; };
+		780886AF2AAA66080064A6AB /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780886AE2AAA66080064A6AB /* ChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		780886842AA9E6980064A6AB /* StateSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StateSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		780886872AA9E6980064A6AB /* StateSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateSwiftUIApp.swift; sourceTree = "<group>"; };
-		780886892AA9E6980064A6AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		780886892AA9E6980064A6AB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		7808868B2AA9E6990064A6AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7808868E2AA9E6990064A6AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		780886992AA9EAED0064A6AB /* IncomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeView.swift; sourceTree = "<group>"; };
+		7808869C2AA9EB640064A6AB /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		780886A02AA9F1510064A6AB /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		780886A22AA9F4D50064A6AB /* ExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseView.swift; sourceTree = "<group>"; };
+		780886A42AA9F5180064A6AB /* DebtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtView.swift; sourceTree = "<group>"; };
+		780886A62AA9F54C0064A6AB /* InvestmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentView.swift; sourceTree = "<group>"; };
+		780886AA2AA9F7D20064A6AB /* CurrencyExchange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyExchange.swift; sourceTree = "<group>"; };
+		780886AC2AA9F8110064A6AB /* ActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionView.swift; sourceTree = "<group>"; };
+		780886AE2AAA66080064A6AB /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +69,9 @@
 		780886862AA9E6980064A6AB /* StateSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				7808869B2AA9EB550064A6AB /* Models */,
+				780886952AA9E6D00064A6AB /* Views */,
 				780886872AA9E6980064A6AB /* StateSwiftUIApp.swift */,
-				780886892AA9E6980064A6AB /* ContentView.swift */,
 				7808868B2AA9E6990064A6AB /* Assets.xcassets */,
 				7808868D2AA9E6990064A6AB /* Preview Content */,
 			);
@@ -65,6 +84,38 @@
 				7808868E2AA9E6990064A6AB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		780886952AA9E6D00064A6AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				780886962AA9EA500064A6AB /* Accounts */,
+				780886892AA9E6980064A6AB /* MainView.swift */,
+				780886AC2AA9F8110064A6AB /* ActionView.swift */,
+				780886AE2AAA66080064A6AB /* ChartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		780886962AA9EA500064A6AB /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				780886992AA9EAED0064A6AB /* IncomeView.swift */,
+				780886A22AA9F4D50064A6AB /* ExpenseView.swift */,
+				780886A42AA9F5180064A6AB /* DebtView.swift */,
+				780886A62AA9F54C0064A6AB /* InvestmentView.swift */,
+			);
+			path = Accounts;
+			sourceTree = "<group>";
+		};
+		7808869B2AA9EB550064A6AB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7808869C2AA9EB640064A6AB /* Currency.swift */,
+				780886A02AA9F1510064A6AB /* Account.swift */,
+				780886AA2AA9F7D20064A6AB /* CurrencyExchange.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +188,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7808868A2AA9E6980064A6AB /* ContentView.swift in Sources */,
+				780886A12AA9F1520064A6AB /* Account.swift in Sources */,
+				780886AB2AA9F7D20064A6AB /* CurrencyExchange.swift in Sources */,
+				7808869D2AA9EB640064A6AB /* Currency.swift in Sources */,
+				780886AD2AA9F8110064A6AB /* ActionView.swift in Sources */,
+				7808868A2AA9E6980064A6AB /* MainView.swift in Sources */,
+				7808869A2AA9EAED0064A6AB /* IncomeView.swift in Sources */,
 				780886882AA9E6980064A6AB /* StateSwiftUIApp.swift in Sources */,
+				780886A52AA9F5180064A6AB /* DebtView.swift in Sources */,
+				780886A32AA9F4D50064A6AB /* ExpenseView.swift in Sources */,
+				780886A72AA9F54C0064A6AB /* InvestmentView.swift in Sources */,
+				780886AF2AAA66080064A6AB /* ChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
